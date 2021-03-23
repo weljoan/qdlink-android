@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/relativeLayout_musicone" android:background="@color/transparent_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/mypadding44" android:layout_height="@dimen/mypadding44" android:src="@mipmap/newmusic_btn_playall" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/text_view_18" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mypadding14" android:text="@string/music_playall" android:layout_centerVertical="true" />
+        <View android:background="@color/music_list_separated_line" android:layout_width="fill_parent" android:layout_height="@dimen/mypadding1" android:layout_marginLeft="@dimen/mypadding14" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

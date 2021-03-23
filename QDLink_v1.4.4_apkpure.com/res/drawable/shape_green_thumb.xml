@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/switch_thumb_height" android:width="@dimen/switch_thumb_height" />
+    <corners android:radius="@dimen/switch_thumb_height_half" />
+    <gradient android:startColor="@color/switch_white_thumb" android:endColor="@color/switch_white_thumb" />
+    <stroke android:width="@dimen/length_one" android:color="@color/switch_green_thumb" />
+</shape>

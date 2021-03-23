@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_header" android:textColor="@color/text_color_collect_item_sub_title" android:ellipsize="end" android:id="@id/tv_collect_header" android:paddingTop="@dimen/padding25" android:paddingBottom="@dimen/padding5" android:layout_width="@dimen/length_zero" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="@dimen/padding15" android:paddingEnd="@dimen/padding15" />
+</androidx.constraintlayout.widget.ConstraintLayout>

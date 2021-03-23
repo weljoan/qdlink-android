@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/transport" />
+    <stroke android:width="@dimen/shape_radio_stroke_width" android:color="@color/btn_gray_p" />
+    <corners android:topLeftRadius="@dimen/length_zero" android:topRightRadius="@dimen/length_zero" android:bottomLeftRadius="@dimen/length_zero" android:bottomRightRadius="@dimen/length_zero" />
+</shape>

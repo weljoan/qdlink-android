@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color_custom_loading_dialog_background" />
+    <stroke android:width="@dimen/length_zero" android:color="@color/color_custom_loading_dialog_background" />
+    <corners android:topLeftRadius="@dimen/background_custom_loading_dialog_corners_radius" android:topRightRadius="@dimen/background_custom_loading_dialog_corners_radius" android:bottomLeftRadius="@dimen/background_custom_loading_dialog_corners_radius" android:bottomRightRadius="@dimen/background_custom_loading_dialog_corners_radius" />
+</shape>

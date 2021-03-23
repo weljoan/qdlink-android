@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/litletransparent_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearlayout_playmusic" android:background="@drawable/common_item_pressed_musiclist" android:layout_width="fill_parent" android:layout_height="@dimen/mypadding55" android:layout_marginLeft="@dimen/mypadding3">
+        <TextView android:textSize="@dimen/text_view_15" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_name" android:paddingTop="@dimen/mypadding9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/music_unknown" android:singleLine="true" />
+        <TextView android:textSize="@dimen/text_view_12" android:textColor="@color/voice_help_detail_text_color" android:ellipsize="end" android:id="@id/tv_songer" android:paddingTop="@dimen/mypadding2" android:paddingBottom="@dimen/mypadding5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/text_view_130" android:text="@string/music_unknown" android:singleLine="true" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="@color/music_list_separated_line" android:layout_width="fill_parent" android:layout_height="@dimen/length_one" />
+</LinearLayout>

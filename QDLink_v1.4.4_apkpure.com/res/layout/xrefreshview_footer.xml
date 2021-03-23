@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/x_refresh_view_footer_content" android:padding="@dimen/loading_layout_header_footer_padding" android:layout_width="fill_parent" android:layout_height="@dimen/loading_layout_header_footer_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/x_refresh_view_footer_progressbar" android:layout_width="@dimen/progress_bar_size" android:layout_height="@dimen/progress_bar_size" android:indeterminate="true" android:indeterminateDrawable="@drawable/layer_list_progress_loading" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/text_size_loading_large" android:textColor="@color/color_text_loading" android:gravity="center" android:id="@id/x_refresh_view_footer_hint_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/x_refresh_view_footer_hint_normal" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/text_size_loading_large" android:textColor="@color/color_text_loading" android:gravity="center" android:id="@id/x_refresh_view_footer_click_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/x_refresh_view_footer_hint_ready" android:layout_centerInParent="true" />
+</RelativeLayout>

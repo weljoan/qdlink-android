@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/switch_track_height" />
+    <corners android:radius="@dimen/switch_track_height_half" />
+    <gradient android:startColor="@color/switch_green_track" android:endColor="@color/switch_green_track" />
+</shape>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/background_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearlayout_appcount" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/mypadding14" android:layout_height="@dimen/mypadding13" android:src="@mipmap/newmusic_icon_triangle" />
+        <TextView android:textSize="@dimen/text_view_15" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mypadding5" android:text="应用推荐" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/qqmusic_releativelayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mypadding26" android:layout_marginTop="@dimen/mypadding14" android:layout_below="@id/linearlayout_appcount">
+        <ImageView android:layout_width="@dimen/mypadding60" android:layout_height="@dimen/mypadding60" android:src="@mipmap/newmusic_icon_qqmusic" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mypadding70" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_view_18" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/music_qqmusicsyncplaylist" />
+            <TextView android:textSize="@dimen/text_view_16" android:textColor="@color/switch_gray_track" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/music_listentomylikesong" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/mypadding10" android:layout_height="@dimen/mypadding19" android:src="@mipmap/newmusic_btn_expound_p" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/newmusic_online_view" android:background="@color/music_list_separated_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/mypadding1" android:layout_marginTop="@dimen/mypadding9" android:layout_below="@id/qqmusic_releativelayout" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearlayout_appcount1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mypadding14" android:layout_below="@id/newmusic_online_view">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/mypadding13" android:layout_height="@dimen/mypadding13" android:src="@mipmap/newmusic_icon_triangle" />
+        <TextView android:textSize="@dimen/text_view_15" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mypadding5" android:text="@string/music_racmmand" />
+    </LinearLayout>
+</RelativeLayout>

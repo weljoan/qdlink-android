@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/linearlayout_online_item" android:background="@color/background_gray" android:layout_width="@dimen/mypadding93" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/btn_newmusic_onlinealbum" android:layout_width="@dimen/mypadding93" android:layout_height="@dimen/mypadding93" android:src="@mipmap/ic_launcher" />
+    <com.neusoft.qdrivelink.music.customview.MarqueeText android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/txtview_newmusic_onlinealbumtxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mypadding8" android:text="dfsfsdfsdfsdfdsfdsfsdfss" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" app:layout_constraintTop_toBottomOf="@id/btn_newmusic_onlinealbum" />
+</androidx.constraintlayout.widget.ConstraintLayout>

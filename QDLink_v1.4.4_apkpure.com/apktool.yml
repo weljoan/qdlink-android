@@ -1,0 +1,138 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: QDLink_v1.4.4_apkpure.com.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.arch.core_core-runtime.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager_viewpager.version
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  androidsupportmultidexversion.txt: '0'
+  com.google.gson/module-info.java: '8'
+  com/google/gson/DefaultDateTypeAdapter.java: '8'
+  com/google/gson/ExclusionStrategy.java: '8'
+  com/google/gson/FieldAttributes.java: '8'
+  com/google/gson/FieldNamingPolicy.java: '8'
+  com/google/gson/FieldNamingStrategy.java: '8'
+  com/google/gson/Gson.java: '8'
+  com/google/gson/GsonBuilder.java: '8'
+  com/google/gson/InstanceCreator.java: '8'
+  com/google/gson/JsonArray.java: '8'
+  com/google/gson/JsonDeserializationContext.java: '8'
+  com/google/gson/JsonDeserializer.java: '8'
+  com/google/gson/JsonElement.java: '8'
+  com/google/gson/JsonIOException.java: '8'
+  com/google/gson/JsonNull.java: '8'
+  com/google/gson/JsonObject.java: '8'
+  com/google/gson/JsonParseException.java: '8'
+  com/google/gson/JsonParser.java: '8'
+  com/google/gson/JsonPrimitive.java: '8'
+  com/google/gson/JsonSerializationContext.java: '8'
+  com/google/gson/JsonSerializer.java: '8'
+  com/google/gson/JsonStreamParser.java: '8'
+  com/google/gson/JsonSyntaxException.java: '8'
+  com/google/gson/LongSerializationPolicy.java: '8'
+  com/google/gson/TypeAdapter.java: '8'
+  com/google/gson/TypeAdapterFactory.java: '8'
+  com/google/gson/package-info.java: '8'
+  com/google/gson/annotations/Expose.java: '8'
+  com/google/gson/annotations/JsonAdapter.java: '8'
+  com/google/gson/annotations/SerializedName.java: '8'
+  com/google/gson/annotations/Since.java: '8'
+  com/google/gson/annotations/Until.java: '8'
+  com/google/gson/annotations/package-info.java: '8'
+  com/google/gson/internal/$Gson$Preconditions.java: '8'
+  com/google/gson/internal/$Gson$Types.java: '8'
+  com/google/gson/internal/ConstructorConstructor.java: '8'
+  com/google/gson/internal/Excluder.java: '8'
+  com/google/gson/internal/GsonBuildConfig.java: '8'
+  com/google/gson/internal/JavaVersion.java: '8'
+  com/google/gson/internal/JsonReaderInternalAccess.java: '8'
+  com/google/gson/internal/LazilyParsedNumber.java: '8'
+  com/google/gson/internal/LinkedHashTreeMap.java: '8'
+  com/google/gson/internal/LinkedTreeMap.java: '8'
+  com/google/gson/internal/ObjectConstructor.java: '8'
+  com/google/gson/internal/PreJava9DateFormatProvider.java: '8'
+  com/google/gson/internal/Primitives.java: '8'
+  com/google/gson/internal/Streams.java: '8'
+  com/google/gson/internal/UnsafeAllocator.java: '8'
+  com/google/gson/internal/package-info.java: '8'
+  com/google/gson/internal/bind/ArrayTypeAdapter.java: '8'
+  com/google/gson/internal/bind/CollectionTypeAdapterFactory.java: '8'
+  com/google/gson/internal/bind/DateTypeAdapter.java: '8'
+  com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.java: '8'
+  com/google/gson/internal/bind/JsonTreeReader.java: '8'
+  com/google/gson/internal/bind/JsonTreeWriter.java: '8'
+  com/google/gson/internal/bind/MapTypeAdapterFactory.java: '8'
+  com/google/gson/internal/bind/ObjectTypeAdapter.java: '8'
+  com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java: '8'
+  com/google/gson/internal/bind/SqlDateTypeAdapter.java: '8'
+  com/google/gson/internal/bind/TimeTypeAdapter.java: '8'
+  com/google/gson/internal/bind/TreeTypeAdapter.java: '8'
+  com/google/gson/internal/bind/TypeAdapterRuntimeTypeWrapper.java: '8'
+  com/google/gson/internal/bind/TypeAdapters.java: '8'
+  com/google/gson/internal/bind/util/ISO8601Utils.java: '8'
+  com/google/gson/internal/reflect/PreJava9ReflectionAccessor.java: '8'
+  com/google/gson/internal/reflect/ReflectionAccessor.java: '8'
+  com/google/gson/internal/reflect/UnsafeReflectionAccessor.java: '8'
+  com/google/gson/reflect/TypeToken.java: '8'
+  com/google/gson/reflect/package-info.java: '8'
+  com/google/gson/stream/JsonReader.java: '8'
+  com/google/gson/stream/JsonScope.java: '8'
+  com/google/gson/stream/JsonToken.java: '8'
+  com/google/gson/stream/JsonWriter.java: '8'
+  com/google/gson/stream/MalformedJsonException.java: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+  org/apache/log4j/lf5/config/defaultconfig.properties: '8'
+  org/apache/log4j/lf5/viewer/images/channelexplorer_new.gif: '0'
+  org/apache/log4j/lf5/viewer/images/channelexplorer_satellite.gif: '0'
+  org/apache/log4j/lf5/viewer/images/lf5_small_icon.gif: '0'
+  org/apache/log4j/xml/log4j.dtd: '8'
+  pinyindb/pinyin_gwoyeu_mapping.xml: '8'
+  pinyindb/pinyin_mapping.xml: '8'
+  pinyindb/unicode_to_hanyu_pinyin.txt: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '50'
+  versionName: 1.4.4

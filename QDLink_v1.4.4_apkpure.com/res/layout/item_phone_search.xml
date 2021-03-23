@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_vertical" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/phone_item_recent_tv_name_size" android:textColor="@color/color_text_white" android:ellipsize="marquee" android:gravity="start" android:id="@id/qd_phone_list_item_nametv" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <requestFocus android:focusable="true" android:focusableInTouchMode="true" android:duplicateParentState="true" />
+    </TextView>
+    <TextView android:textSize="@dimen/phone_btn_reload_size" android:textColor="@color/color_text_white" android:ellipsize="marquee" android:gravity="start" android:id="@id/qd_phone_list_item_numtv" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_rv_contacts_margin_bottom" android:layout_marginBottom="@dimen/phone_iv_alpha_navy_w" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/qd_phone_list_item_nametv">
+        <requestFocus android:focusable="true" android:focusableInTouchMode="true" android:duplicateParentState="true" />
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>
