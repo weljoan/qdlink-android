@@ -232,7 +232,7 @@
     .line 1120
     iget-object v0, p0, Lcom/neusoft/qdrivelink/interconnection/QdriveConnService$3;->this$0:Lcom/neusoft/qdrivelink/interconnection/QdriveConnService;
 
-    invoke-virtual {v0, v1}, Lcom/neusoft/qdrivelink/interconnection/QdriveConnService;->replyLegalChangeNew(I)V
+    invoke-virtual {v0, v2}, Lcom/neusoft/qdrivelink/interconnection/QdriveConnService;->replyLegalChangeNew(I)V
 
     goto :goto_0
 
@@ -245,7 +245,7 @@
     .line 1116
     iget-object v0, p0, Lcom/neusoft/qdrivelink/interconnection/QdriveConnService$3;->this$0:Lcom/neusoft/qdrivelink/interconnection/QdriveConnService;
 
-    invoke-virtual {v0, v1}, Lcom/neusoft/qdrivelink/interconnection/QdriveConnService;->replyLegalChange(I)V
+    invoke-virtual {v0, v2}, Lcom/neusoft/qdrivelink/interconnection/QdriveConnService;->replyLegalChange(I)V
 
     :goto_0
     return-void
