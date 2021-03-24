@@ -1,9 +1,11 @@
 # qdlink-android
+Use any app with QDLink on the proton x50 during drive without restriction (bypass).
+
 # You do not have to go through the decompile/recompile process.
  You can directly download it from https://github.com/weljoan/qdlink-android/blob/master/dist/signed-QDLink_v1.4.4_apkpure.com.apk
 
 ---------------
- 
+# Concept and how it work 
  We use APK-tool to unpack the orignal APK file by
  You can get APK-tool from https://github.com/iBotPeaches/Apktool
 
