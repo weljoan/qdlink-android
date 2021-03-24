@@ -26,3 +26,7 @@ Use any app with QDLink on the proton x50 during drive without restriction (bypa
  
  feel free to explore yourself and if you have any question, please create an issue. I will reply if i have time.
  :D
+
+# TODO
+ 1. Retreive the headunit qdlink apk for more exploring.
+ 2. Make qdlink to show fullscreen for more resolution optimization.
